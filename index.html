@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<div id="myNav" class="overlay">
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <h2> Choose X or O! </h2>
+    <button id="xChosen" class="btn btn-lg">I choose X!</button>
+    <button id="oChosen" class="btn btn-lg">I choose O!</button>
+  </div>
+</div>
+
+<!-- Results Overlay content -->
+  <div id="results-nav" class="overlay">
+    <div class="overlay-announcement overlay-content">
+      <div id="result"></div>
+      <button id="play-again" class="btn btn-lg">Play Again</button>
+    </div>
+  </div>
+</div>
+
+<!-- Canvas Lines Overlay content -->
+<div id="canvas-nav" class="overlay-canvas">
+    <div class="overlay-announcement overlay-content-canvas">
+      <canvas id="myCanvas"></canvas>
+      
+  </div>
+</div>
+
+<!-- Main content -->
+
+<div class="board">
+  <h1>Tic Tac Toe</h1>
+  <button id="reset" class="btn btn-lg">Reset</button>
+  <div class="row text-center">
+    <div id="oneA" class='square'></div>
+    <div id="oneB" class='square'></div>
+    <div id="oneC" class='square'></div>
+  </div>
+  <div class="row text-center">
+    <div id="twoA" class='square'></div>
+    <div id="twoB" class='square'></div>
+    <div id="twoC" class='square'></div>
+  </div>
+  <div class="row text-center">
+    <div id="threeA" class='square'></div>
+    <div id="threeB" class='square'></div>
+    <div id="threeC" class='square'></div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
